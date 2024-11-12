@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "npx terser ./src/region.js -o ./dist/region.min.js -c -m --comments false"
+  },
+  "devDependencies": {
+    "terser": "^5.36.0"
+  }
+}
